@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore</title>
+    <link rel="icon" type="image/x-icon" href="/images/toyotaIcon.png">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -53,15 +54,25 @@
               <a href="home.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#ShoppingTools" class="nav-link">Shopping Tools</a>
+              <a href="shoppingTools.html" class="nav-link">Shopping Tools</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Explore</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
-              </svg></a>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -85,12 +96,34 @@
             tempora voluptas delectus, laborum veniam est beatae quas vero?
             Dolorem dolorum ab possimus.
           </p>
-          <a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#modalId">
+            Learn More
+          </button>
+          <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modalLabel">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- --------------------------Showcase-------------------------- -->
-    <div class="album py-5 bg-body-tertiary">
+     <section class=" py-5 ">
+    <div class="album bg-body-tertiary">
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
@@ -129,7 +162,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary">Starting at $60,000</small>
+                  <small class="text-body-secondary px-md-3">Starting at $60,000</small>
                 </div>
               </div>
             </div>
@@ -170,7 +203,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary">Starting at $75,000</small>
+                  <small class="text-body-secondary px-md-3">Starting at $75,000</small>
                 </div>
               </div>
             </div>
@@ -211,7 +244,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary">Starting at $65,000</small>
+                  <small class="text-body-secondary px-md-3">Starting at $65,000</small>
                 </div>
               </div>
             </div>
@@ -253,7 +286,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary">Starting at $88,000</small>
+                  <small class="text-body-secondary px-md-3">Starting at $88,000</small>
                 </div>
               </div>
             </div>
@@ -294,7 +327,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary">Starting at $45,000</small>
+                  <small class="text-body-secondary px-md-3">Starting at $45,000</small>
                 </div>
               </div>
             </div>
@@ -335,7 +368,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary">Starting at $77,000</small>
+                  <small class="text-body-secondary px-md-3">Starting at $77,000</small>
                 </div>
               </div>
             </div>
@@ -376,7 +409,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary">Starting at $50,000</small>
+                  <small class="text-body-secondary px-md-3">Starting at $50,000</small>
                 </div>
               </div>
             </div>
@@ -417,7 +450,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary">Starting at $60,000</small>
+                  <small class="text-body-secondary px-md-3">Starting at $60,000</small>
                 </div>
               </div>
             </div>
@@ -458,7 +491,7 @@
                       Finance
                     </button>
                   </div>
-                  <small class="text-body-secondary"
+                  <small class="text-body-secondary px-md-3"
                     >Starting at $104,000</small
                   >
                 </div>
@@ -468,6 +501,43 @@
         </div>
       </div>
     </div>
+  </section>
+    <section>
+    
+      <div class="container">
+        <h4>Car Specs</h4>
+        <div class="row py-5">
+          <div class="col-md">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Interior</th>
+                  <th scope="col">Exterior</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lether</td>
+                  <td>Color Red</td>
+                </tr>
+                <tr>
+            
+                  <td>Heated Sit</td>
+                  <td>4-door Car</td>
+                </tr>
+                <tr>
+                  <td>6 Speakers</td>
+                  <td>All Wheel Drive</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md">
+            <img src="https://firebasestorage.googleapis.com/v0/b/images-72ef5.appspot.com/o/image4.png?alt=media&token=be1bab58-c095-42eb-b57a-49c2885360aa" alt="" style="width: 100%;height: 100%;border-radius: 10px;">
+          </div>
+        </div>
+      </div>
+    </section>
       <!-- ------------------------------FOOTER------------------------------ -->
       <section class="bg-body-secondary">
         <div class="container">

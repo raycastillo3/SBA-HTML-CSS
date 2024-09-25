@@ -30,11 +30,11 @@
     </style>
   </head>
   <body>
-    <!-- --------------------------Navbar-------------------------- -->
+    <!----------------------------Navbar---------------------------->
     <nav class="navbar navbar-expand-lg sticky-top bg-danger navbar-dark">
       <div class="container">
         <a href="#Home" class="image-fluid px-2"><img src="./images/toyotaIcon.png" alt="toyotaIcon" height="40px" width="40px"></a>
-        <a href="#" class="navbar-brand">Cetirfied Used Vehicles</a>
+        <a href="home.html" class="navbar-brand">Cetirfied Used Vehicles</a>
         <i class="bi bi-cart"></i>
         <button
           class="navbar-toggler"
@@ -50,15 +50,25 @@
               <a href="home.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#ShoppingTools" class="nav-link">Shopping Tools</a>
+              <a href="shoppingTools.html" class="nav-link">Shopping Tools</a>
             </li>
             <li class="nav-item">
               <a href="explore.html" class="nav-link">Explore</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
-              </svg></a>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle nav-link" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  </svg>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
@@ -66,7 +76,7 @@
     </nav>
     <!-- --------------------------Carousel-------------------------- -->
     <section>
-      <div class="container py-5">
+      <div class="container-fluid pb-5 g-0">
         <div id="carouselInterval" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active" data-interval="10000">
@@ -142,7 +152,7 @@
                       <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Finance</button>
                     </div>
-                    <small class="text-body-secondary">Starting at $80,000</small>
+                    <small class="text-body-secondary px-md-3">Starting at $80,000</small>
                   </div>
                 </div>
               </div>
@@ -157,7 +167,7 @@
                       <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Finance</button>
                     </div>
-                    <small class="text-body-secondary">Starting at $90,000</small>
+                    <small class="text-body-secondary px-md-3">Starting at $90,000</small>
                   </div>
                 </div>
               </div>
@@ -172,7 +182,7 @@
                       <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Finance</button>
                     </div>
-                    <small class="text-body-secondary">Starting at $40,000</small>
+                    <small class="text-body-secondary px-md-3">Starting at $40,000</small>
                   </div>
                 </div>
               </div>
@@ -183,7 +193,7 @@
           </a>
         </section>
         <!-- --------------------------Jumbotron-------------------------- -->
-    <section class="text-center">
+    <section class="text-center py-5">
       <div class="container">
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
@@ -243,7 +253,7 @@
                 </div>
               </div>
               <div class="col-md">
-                <img src="https://firebasestorage.googleapis.com/v0/b/images-72ef5.appspot.com/o/image4.png?alt=media&token=be1bab58-c095-42eb-b57a-49c2885360aa" alt="" style="width: 100%;height: 100%;border-radius: 10px;">
+                <iframe src="https://giphy.com/embed/LrQnIgA6oL8wPrE5y4" style="width: 100%;height: 100%;border-radius:10px" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
               </div>
             </div>
           </div>
